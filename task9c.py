@@ -15,3 +15,4 @@ def CustomChatGPT(user_input):
 demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title =
 "INTELLIGENT CHATBOT")
 demo.launch(share=True)
+
