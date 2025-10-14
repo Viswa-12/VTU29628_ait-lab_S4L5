@@ -11,3 +11,4 @@ while input != "quit()":
  reply = response["choices"][0]["message"]["content"]
  messages.append({"role": "assistant", "content": reply})
  print("\n" + reply +
+
