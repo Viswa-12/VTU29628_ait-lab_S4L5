@@ -20,3 +20,4 @@ print("Original Word : Lemmatized Word")
 for word in words:
     lemma = lemmatizer.lemmatize(word)
     print(f"{word:<15} : {lemma}")
+
